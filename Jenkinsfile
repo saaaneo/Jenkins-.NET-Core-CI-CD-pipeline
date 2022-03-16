@@ -1,6 +1,6 @@
 node {
     stage('pull repo') { 
-        git branch: 'dev', url: 'https://github.com/saaaneo/Jenkins-.NET-Core-CI-CD-pipeline.git'
+        git branch: 'dev1', url: 'https://github.com/saaaneo/Jenkins-.NET-Core-CI-CD-pipeline.git'
     }
     stage('Restore packages') {
                 sh 'dotnet restore WebApplication.sln'
